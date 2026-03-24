@@ -1,22 +1,15 @@
-Autor: Jan Nowojski 
+# Project: Chest X-ray classification (Pneumonia vs Normal)
 
-1. Opis
-Projekt wykorzystuje sieć neuronową ResNet18 (Transfer Learning) do klasyfikacji zdjęć RTG klatki piersiowej na dwie kategorie: NORMAL-zdrowy i PNEUMONIA-chory
+**Author:** Jan Nowojski
 
-2. Instalacja środowiska
-Aby uruchomić projekt zainstaluj wymagane biblioteki:
+## 1. Description
+The project uses a ResNet18 neural network (Transfer Learning) to classify chest X-ray images into two categories: **NORMAL** (healthy) and **PNEUMONIA** (sick).
+
+## 2. Full Analysis and Results (Jupyter Notebook)
+The complete research process, including mathematical formulations, data visualization, and detailed training plots, is available in the interactive notebook:
+* [View machine_learning.ipynb](./machine_learning.ipynb)
+
+## 3. Environment Installation
+To run the project, install the required libraries:
+```bash
 pip install -r requirements.txt
-
-3. Przygotowanie danych
-Projekt posiada automat do pobierania danych z Kaggle.
-python scripts/download_data.py
-
-4. Trening modelu
-Uruchomienie treningu. Skrypt zapisze model w folderze:models/
-python scripts/train.py
-
-5. Inferencja
-Aby sprawdzić pojedyncze zdjęcie (przykłady znajdują się w data/samples):
-python scripts/infer.py data/samples/NORMAL.jpeg 
-python scripts/infer.py data/samples/PNEUMONIA.jpeg 
- 
