@@ -7,7 +7,7 @@ The project uses a ResNet18 neural network (Transfer Learning) to classify chest
 
 ## 2. Full Analysis and Results (Jupyter Notebook)
 The complete research process, including mathematical formulations, data visualization, and detailed training plots, is available in the interactive notebook:
-* [View machine_learning.ipynb](./machine_learning.ipynb)
+* [View machine_learning.ipynb](./machine_learning.pdf)
 
 ## 3. Environment Installation
 To run the project, install the required libraries:
